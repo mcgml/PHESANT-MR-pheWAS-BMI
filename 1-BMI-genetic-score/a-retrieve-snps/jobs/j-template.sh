@@ -20,7 +20,7 @@ datadir="${ddir}dosage_bgen/"
 sampleFile="${ddir}sample-stats/data.chr${chr}.sample"
 
 # extract snps for specific chromosome
-qctool -g ${datadir}data.chr${chr}.bgen -incl-rsids snps-96.txt -s $sampleFile -og ${dir}snp-out${chr}.gen
+qctool -g ${datadir}data.chr${chr}.bgen -incl-rsids snps-97.txt -s $sampleFile -og ${dir}snp-out${chr}.gen
 
 date
 
