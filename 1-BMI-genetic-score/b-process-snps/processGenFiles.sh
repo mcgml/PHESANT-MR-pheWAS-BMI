@@ -9,7 +9,7 @@ module add apps/matlab-r2015a
 ####
 # combine gen files
 snpDir="${PROJECT_DATA}/snps/"
-cat ${snpDir}snps-out*.gen > ${snpDir}snps-96.gen
+cat ${snpDir}snp-out*.gen > ${snpDir}snps-96.gen
 
 
 ####
