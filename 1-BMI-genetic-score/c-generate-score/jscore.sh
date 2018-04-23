@@ -1,5 +1,6 @@
 #!/bin/bash
-#PBS -l walltime=4:00:00,nodes=1:ppn=16
+#PBS -l nodes=1:ppn=1
+#PBS -q veryshort
 #PBS -o output-score.file
 #---------------------------------------------
 
